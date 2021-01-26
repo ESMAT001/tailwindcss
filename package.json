@@ -1,0 +1,25 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "esmat",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESMAT001/tailwindcss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ESMAT001/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/ESMAT001/tailwindcss#readme",
+  "description": ""
+}
