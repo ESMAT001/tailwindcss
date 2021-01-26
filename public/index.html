@@ -5,20 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
-<body class="font-sans">
-<div class="container grid">
+<body class="font-new text-gray-600">
+<div class="container mx-auto grid">
     <header class="grid">
-        <nav>
-            <div>   
+        <nav class="flex justify-between flex-col items-center sm:flex-row py-3 px-4">
+            <div class="flex w-full justify-between">   
                 <h3 class="text-lg">
-                    HELLO WORLD
+                    Logo
                 </h3>
+                <label for="toggle-btn" class="sm:hidden">
+                    <span>_-_</span>
+                </label>
             </div>
-        </nav>
-        
+            <input type="checkbox" class="hidden"  id="toggle-btn">
+            <ul class="toggle-nav flex flex-col sm:flex-row items-center h-0 sm:h-auto overflow-hidden sm:overflow-visible transition-height duration-200 ease-in-out" id="toggle-nav">
+                <li class="sm:mr-3 hover:bg-blue-400  transition-all duration-500 ease-in-out">Home</li>
+                <li class="sm:mr-3">about</li>
+                <li class="sm:mr-3">contact</li>
+                <li class="sm:mr-3">web</li>
+            </ul>
+        </nav>  
+        this is
 
     </header>
 </div>

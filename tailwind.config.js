@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily:{
         new:[
-          'Nunito','ui-sans-serif',
+          "'Nunito'",
+          'ui-sans-serif',
           'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',
@@ -21,10 +22,17 @@ module.exports = {
           '"Noto Color Emoji"'
         ]
       }
+      ,
+      transitionProperty: {
+        'height': 'height'
+        // 'spacing': 'margin, padding',
+       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      transitionProperty: ['hover', 'focus']
+    },
   },
   plugins: [],
 }

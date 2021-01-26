@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tailwind build ./src/style.css -o ./public/style.css"
+    "build": "tailwind build ./src/style.css -o ./public/style.css",
+    "watch": "watch 'npm run build' ./src"
   },
   "keywords": [],
   "author": "esmat",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.2.3",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ESMAT001/tailwindcss.git"
